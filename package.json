@@ -1,0 +1,14 @@
+{
+  "name": "ccstats",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Accurate Claude Code token usage report - cache tokens included, one row per API request.",
+  "bin": { "ccstats": "src/cli.mjs" },
+  "scripts": {
+    "start": "node src/cli.mjs",
+    "raw": "node src/cli.mjs --raw --no-open",
+    "rescan": "node src/cli.mjs --rescan"
+  },
+  "engines": { "node": ">=18" }
+}
