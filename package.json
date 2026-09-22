@@ -8,7 +8,8 @@
   "scripts": {
     "start": "node src/cli.mjs",
     "raw": "node src/cli.mjs --raw --no-open",
-    "rescan": "node src/cli.mjs --rescan"
+    "rescan": "node src/cli.mjs --rescan",
+    "all": "node src/all.mjs"
   },
   "engines": { "node": ">=18" }
 }
